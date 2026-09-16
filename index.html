@@ -3,22 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="books.css">
     <title>Books</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <table>
-        <thead>
-            <tr>
-                <th>Title</th>
-                <th>Author</th>
-                <th>Year Read</th>
-                <th>Status</th>
-            </tr>
-        </thead>
-        <tbody id="book-list-body">
-        </tbody>
-    </table>
-    <script src="books.js"></script>
+    <div id="container">
+        <h1>Books I Have Read</h1>
+        <p>Last Updated: September 15, 2026</p>
+
+        <div id="tableWrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Author</th>
+                        <th>Date Started</th>
+                        <th>Date Finished</th>
+                        <th>Reread</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="title">Mistborn: The Final Empire</td>
+                        <td>Brandon Sanderson</td>
+                        <td>August 17, 2026</td>
+                        <td>September 1, 2026</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td id="title">Mistborn: The Well of Ascension</td>
+                        <td>Brandon Sanderson</td>
+                        <td>September 1, 2026</td>
+                        <td>September 15, 2026</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td id="title">The Fires of December</td>
+                        <td>Brandon Sanderson</td>
+                        <td>September 15, 2026</td>
+                        <td>-</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td id="title">Mistborn: The Hero of Ages</td>
+                        <td>Brandon Sanderson</td>
+                        <td>September 16, 2026</td>
+                        <td>-</td>
+                        <td>Yes</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
 </body>
 </html>
